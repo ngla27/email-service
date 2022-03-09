@@ -1,0 +1,27 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "And emailing microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngla27/email-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngla27/email-service/issues"
+  },
+  "homepage": "https://github.com/ngla27/email-service#readme",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "tsc": "2.0.4"
+  },
+  "dependencies": {
+    "@types/nodemailer": "6.4.4",
+    "nodemailer": "6.7.2"
+  }
+}
